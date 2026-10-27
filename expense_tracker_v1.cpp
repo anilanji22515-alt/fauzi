@@ -287,7 +287,6 @@ void menu(Tracker & t)
 int main()
 {
     Tracker tracker;
-    cout<<"Hello user\n\n";
     displayIntro();
     menu(tracker);
 }
