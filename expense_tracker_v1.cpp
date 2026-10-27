@@ -106,7 +106,7 @@ void Tracker :: showCertainExpense(const string & name)const
         }
     }
     if(!isExpenseFound)
-        cout<<name<<" Expense not founded\n\n";
+        cout<<name<<" expense not founded\n\n";
 }
 
 void Tracker :: showExpensesInDates(int date1,int date2)
