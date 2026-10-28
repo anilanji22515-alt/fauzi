@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFI - Telugu Film Industry</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: orange;
+        }
+
+        .hero-banner {
+            background: linear-gradient(90deg, #300000, #a52a2a);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero-banner h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            padding: 30px 5%;
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #8b0000;
+        }
+
+        .movie-list {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px #ccc;
+            text-align: center;
+            padding-bottom: 15px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 12px 5px;
+        }
+
+        .card p {
+            color: #555;
+            padding: 0 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎬 TFI WORLD</h1>
+        <p>Welcome to the World of Telugu Cinema</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#movies">Best Movies</a>
+        <a href="#heroes">Top Heroes</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <section class="hero-banner" id="home">
+        <h2>Mana Telugu Cinema ❤️</h2>
+        <p>Discover blockbuster movies and your favourite stars!</p>
+    </section>
+
+    <section class="container" id="movies">
+        <h2>🔥 Popular Telugu Movies</h2>
+
+        <div class="movie-list">
+
+            <div class="card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"
+                    alt="RRR movie poster">
+                <h3>RRR</h3>
+                <p>Action | Drama | 2022</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/2y4dmgWYRMYXdD1UyJVcn2HSd1D.jpg"
+                    alt="Baahubali movie poster">
+                <h3>Baahubali</h3>
+                <p>Action | Fantasy</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/4Xv6wZ2s3Z8h6bK5Xx7bXz2kX4.jpg"
+                    alt="Pushpa movie poster">
+                <h3>Pushpa</h3>
+                <p>Action | Drama</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt="Popular cinema poster">
+                <h3>Salaar</h3>
+                <p>Action | Thriller</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container" id="heroes">
+        <h2>⭐ Favourite Telugu Heroes</h2>
+
+        <div class="movie-list">
+
+            <div class="card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/6eMg81CPLalULg8spPt2fG3F8V.jpg"
+                    alt="Prabhas">
+                <h3>Prabhas</h3>
+                <p>Baahubali | Salaar | Kalki 2898 AD</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/2Eewgp7o5AU1xCataD8wW2bF8y.jpg"
+                    alt="Allu Arjun">
+                <h3>Allu Arjun</h3>
+                <p>Pushpa | Ala Vaikunthapurramuloo</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/7dXK6z7X6fX5kX3X8xX2F9c9zX.jpg"
+                    alt="Ram Charan">
+                <h3>Ram Charan</h3>
+                <p>RRR | Rangasthalam | Magadheera</p>
+            </div>
+
+            <div class="card">
+                <img
+                    src="https://image.tmdb.org/t/p/w500/placeholder.jpg"
+                    alt="NTR">
+                <h3>Jr NTR</h3>
+                <p>RRR | Devara | Simhadri</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container" id="about">
+        <h2>About TFI</h2>
+        <p style="text-align:center; line-height:1.8;">
+            Telugu Film Industry, also known as Tollywood,
+            produces amazing movies filled with action, romance,
+            comedy, music and emotion. Explore popular films
+            and celebrate your favourite Telugu stars!
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 TFI World | Made with ❤️ for Telugu Cinema Fans</p>
+    </footer>
+
+</body>
+</html>
